@@ -149,7 +149,6 @@ const GlobalContext = ({children}) => {
     }
   ];
   const [products,setProducts] = useState(productList)
-  console.log(cart);
   const [categoryBox,setCategoryBox] = useState(categoryList)
 
 

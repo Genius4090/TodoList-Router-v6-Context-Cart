@@ -57,7 +57,6 @@ function Dashboard() {
             <h2 className="font-semibold text-lg px-4 text-center">{item.title}</h2>
             <div className="flex gap-4">
               <p className="px-4 py-1 rounded bg-black text-white font-semibold">${item.price}</p>
-              <button onClick={()=> handleAdd(item)} className="bg-green-500 text-white rounded font-semibold px-8 py-1">Add</button>
               
             </div>
             <button onClick={()=> handleCartDelete(item.id)} className="absolute bg-red-500 text-white rounded font-semibold px-2 cursor-pointer py-1 top-2 right-2">Delete</button>
